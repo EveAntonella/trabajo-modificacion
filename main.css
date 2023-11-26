@@ -1,0 +1,195 @@
+/*Proyecto Final|Evelyn rodriguez
+
+/*main,selector de etiquetas*/
+
+/*configuracion de color al cuerpo de la pagina*/
+body
+{ background-color:rgba(156, 248, 8, 0.871);
+}
+/*configuracion de tamaño de banner imagen dentro del titulo*/
+<style>
+.dj-banner{margin: 30px 0; position: relative;}
+.dj-banner .dj-bg{background-image: url(public/ladybug-3475779_640.jpg); background-repeat: no-repeat;
+ background-position: center; background-size: cover; width: 100%;}
+.dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+.dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+@media screen and (min-width:768px){
+   .dj-banner .dj-bg img{margin-right: 100px;}
+   .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+   .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+   .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+}
+/*aplique de color al banner titulo y configure el ancho y el alto*/
+.banner
+  {height: 30vh;  
+width: 100%;
+  background-color: rgb(0, 0, 0) ;
+} /*color letras del main*/
+main nav a 
+{color:rgb(33, 105, 150);
+}
+/*footer black*/
+footer 
+{
+ background-color: #000000;  
+ display: flex;
+   flex-direction: row;
+justify-content: center;
+   align-items: center;
+ width: 100%; /*ancho del banner*/
+    height: 20vh; /*el alto del mismo*/
+}
+/*color al texto*/
+    span h6{
+    color:rgb(255, 255, 255)0.255);
+   }
+h2{
+   color: aliceblue;}
+      h4{color: aliceblue;}
+
+  h5{color: aliceblue;}
+
+  h1{
+    color: #fffffffe;
+    font-size: 60px;
+  }
+  div img .iconoredsocial{
+    font-size: 5px
+  }
+  /*cambio de color al boton de "promocion*/
+button{
+    background-color:rgb(22, 112, 123);
+}
+/*color fondo body*/
+.container{
+    display: flex;
+    border-color: rgb(21, 114, 114);
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;}
+/*configuracion deflexbox */
+footer{
+    display: flex;
+    border-color: #000607; /*1*/
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
+}
+h5{
+    display: flex;/*2*/
+    border-color: #000304;
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
+}
+h4{
+    display: flex;
+    border-color: #000000;/*3*/
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
+}
+h2{
+    display: flex;
+    border-color: #000000; /*4*/
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
+}
+/*configuracion celular*/
+@media screen  y (max: width 400px; )y (max-width: 70px;){ /*configuracion tamaño*/
+.container  
+   flex-direction: column};
+
+.container div{
+    font-size: 2rem;
+
+}@media screem y (min-width:769px)y(max-width:1200px)/*configuracion de tamaño*/
+.container div {
+font-size:4rem}
+
+/*!!!!!!!!!!resolver redireccion de los botones de menu!!!!!!!!!!!*/
+{flex-direction:#section_nosotros 
+    flex-direction:#section_servicios
+    flex-direction:#section_galeria 
+    }ul
+    {
+        display: flex;
+    }
+    li
+    {background-color: rgb(22, 112, 123);}
+ footer
+{
+    color: #ffffff;
+}   
+html {
+padding: 0%
+margin:0%
+box-sizing: border-box;}
+/*configuracion de caja y completa del nav*/
+nav{
+   background-color:#000809 ;
+   display: flex; 
+   justify-content: space-between;
+   padding: 1rem 2rem;
+}
+nav div img {
+    width: 50px;
+}
+    nav ul
+    { display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+    }
+        nav ul li a{
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        font-weight: 600;
+        padding: 8px 0;
+        transition: all;
+        transition-duration: 300ms;
+        border-bottom: 1px solid rgb(255, 255, 255) (0,0) ;
+        }
+        /*configuracion de boton a color*/
+ul ul li a :hover{
+    color: orangered;
+    border-bottom: 1px solid rgb(195, 195, 13) ;
+}
+p h3{
+    color: #ffffff;
+    font-size: larger;
+}
+ h5 img{
+
+  width: 300px;  
+  aspect-ratio: 1/1
+  ;
+}h5 img:hover{
+    transform: scale(1.25);
+}
+div img div h1 div {
+     display: flex;
+    border-color: #000000;/*3*/
+  border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+   
+
+
+
+
+
+    
