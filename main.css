@@ -3,13 +3,13 @@
 /*main,selector de etiquetas*/
 
 /*configuracion de color al cuerpo de la pagina*/
-body
-{ background-color:rgba(156, 248, 8, 0.871);
+body{
+  background-color: dimgray;
 }
-/*configuracion de tamaño de banner imagen dentro del titulo*/
+/*configuracion de tamaño x2  de banner imagen dentro del titulo */
 <style>
 .dj-banner{margin: 30px 0; position: relative;}
-.dj-banner .dj-bg{background-image: url(public/ladybug-3475779_640.jpg); background-repeat: no-repeat;
+.dj-banner .dj-bg{background-image: url(https://cdn.pixabay.com/photo/2020/04/29/03/40/pizza-5107054_1280.jpg );
  background-position: center; background-size: cover; width: 100%;}
 .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
 .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
@@ -23,10 +23,23 @@ body
 .banner
   {height: 30vh;  
 width: 100%;
-  background-color: rgb(0, 0, 0) ;
-} /*color letras del main*/
+background-color: rgb(0, 3, 0) ;
+}
+/*configuracion tamaño de letra y tipografia*/
+p
+{
+  font-size:x-large;
+  font-family: 'Crimson Text', serif;
+font-family: 'Mali', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Miltonian Tattoo', serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+
+/*color letras del main*/
 main nav a 
-{color:rgb(33, 105, 150);
+{color:rgb(252, 246, 246);
 }
 /*footer black*/
 footer 
@@ -41,17 +54,21 @@ justify-content: center;
 }
 /*color al texto*/
     span h6{
-    color:rgb(255, 255, 255)0.255);
+    color:rgb(0, 0, 0)0.255);
    }
 h2{
-   color: aliceblue;}
-      h4{color: aliceblue;}
+   color: rgb(0, 0, 0);
+ }
 
-  h5{color: aliceblue;}
+      h4{color: rgba(0, 0, 0, 0.929);
+      }
+
+  h5{color: rgb(0, 0, 0);}
 
   h1{
-    color: #fffffffe;
+    color: rgba(253, 253, 253, 0.996);
     font-size: 60px;
+
   }
   div img .iconoredsocial{
     font-size: 5px
@@ -63,7 +80,7 @@ button{
 /*color fondo body*/
 .container{
     display: flex;
-    border-color: rgb(21, 114, 114);
+    border-color: rgb(0, 0, 0);
   border-width: 5px
 ;border-style: solid;
 display: flex;
@@ -77,17 +94,10 @@ footer{
 display: flex;
 justify-content: center;
 }
-h5{
-    display: flex;/*2*/
-    border-color: #000304;
-  border-width: 5px
-;border-style: solid;
-display: flex;
-justify-content: center;
-}
+
 h4{
     display: flex;
-    border-color: #000000;/*3*/
+    border-color: #020000;/*3*/
   border-width: 5px
 ;border-style: solid;
 display: flex;
@@ -95,25 +105,53 @@ justify-content: center;
 }
 h2{
     display: flex;
-    border-color: #000000; /*4*/
+   border-color: rgb(0, 1, 2)   ; /*4*/
   border-width: 5px
 ;border-style: solid;
 display: flex;
 justify-content: center;
-}
-/*configuracion celular*/
-@media screen  y (max: width 400px; )y (max-width: 70px;){ /*configuracion tamaño*/
-.container  
-   flex-direction: column};
+}h3{
+  display: flex;
+  border-color: rgb(0, 1, 2)   ; /*5*/
+ border-width: 5px
+;border-style: solid;
+display: flex;
+justify-content: center;
 
+}
+
+
+/*configuracion celular*/
+@media screen  and ( max-width 575px;)
+  /*configuracion menu y galeria*/
+  .section_title 
+  {margin-top:1.7em;
+
+  }
+  .seccion_gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
+
+}.section_nosotros
+{
+  width: 70%;
+  margin-bottom: 4em;
+  padding-top: 1em;
+}
+.gallery_photo
+{
+  width: 80%;
+}
 .container div{
     font-size: 2rem;
 
-}@media screem y (min-width:769px)y(max-width:1200px)/*configuracion de tamaño*/
+}/*configuracion de tamaño*/
+@media screem y (min-width:769px)y(max-width:1200px)
+
 .container div {
 font-size:4rem}
 
-/*!!!!!!!!!!resolver redireccion de los botones de menu!!!!!!!!!!!*/
 {flex-direction:#section_nosotros 
     flex-direction:#section_servicios
     flex-direction:#section_galeria 
@@ -125,7 +163,7 @@ font-size:4rem}
     {background-color: rgb(22, 112, 123);}
  footer
 {
-    color: #ffffff;
+    color: #f2eded;
 }   
 html {
 padding: 0%
@@ -150,7 +188,7 @@ nav div img {
         nav ul li a{
             text-decoration: none;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #ffffff;
+        color: #080000;
         font-weight: 600;
         padding: 8px 0;
         transition: all;
@@ -163,7 +201,7 @@ ul ul li a :hover{
     border-bottom: 1px solid rgb(195, 195, 13) ;
 }
 p h3{
-    color: #ffffff;
+    color: #000000;
     font-size: larger;
 }
  h5 img{
@@ -174,14 +212,46 @@ p h3{
 }h5 img:hover{
     transform: scale(1.25);
 }
-div img div h1 div {
-     display: flex;
-    border-color: #000000;/*3*/
-  border-width: 5px
-;border-style: solid;
-display: flex;
-justify-content: center;
+.seccion_gallery {
+  display: flex;
+  flex-direction:
+  padding: 2em 1em;
+}#contenedor{
+  text-align: center;
 }
+/*centrado de img servicios y las de la galeria en horizontal*/
+.imga1 {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/6707/6707452.png )
+  url(https://cdn-icons-png.flaticon.com/128/6707/6707452.png )
+  url(https://cdn-icons-png.flaticon.com/128/6707/6707452.png );
+  padding: 5px 10px 5px 10px;
+  margin: 2px;
+  display:inline-block;
+  width: 200px;
+  text-align: center;
+}
+#contenedor{
+  text-align: center;
+}
+.mga2
+{
+  background-image: url(https://cdn.pixabay.com/photo/2020/02/12/22/30/italian-4844072_1280.jpg  )
+  url(https://cdn.pixabay.com/photo/2016/09/24/03/48/pizza-1691004_1280.jpg )
+  url(https://cdn.pixabay.com/photo/2016/03/05/21/43/appetite-1239066_1280.jpg );
+  padding: 5px 10px 5px 10px;
+  margin: 2px;
+  display:inline-block;
+  width: 200px;
+  text-align: center;
+} 
+/*centrado html body*/
+html, body {
+  min-height: 90%;
+}
+
+
+
+
 
 
 
